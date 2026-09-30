@@ -1,0 +1,19 @@
+# Publish the course deliverables and repository instructions only.
+/*
+!/.gitignore
+!/AGENTS.md
+!/README.md
+!/outputs/
+
+# Temporary files and local credentials.
+.DS_Store
+__pycache__/
+*.pyc
+.env
+.env.*
+*.pem
+*.key
+
+# Generated distribution duplicates; source pages and assets are retained.
+/outputs/*.zip
+/outputs/molecula-academy-standalone.html
