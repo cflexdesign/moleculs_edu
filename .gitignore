@@ -3,6 +3,8 @@
 !/.gitignore
 !/AGENTS.md
 !/README.md
+!/index.html
+!/.nojekyll
 !/outputs/
 
 # Temporary files and local credentials.

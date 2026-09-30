@@ -8,7 +8,8 @@ The user supplied the destination repository: `https://github.com/cflexdesign/mo
 
 - Course deliverables live in `outputs/`. The current entry point is `outputs/knowledge-base/index.html`; preserve relative links and media assets.
 - Keep scratch files in `work/`, outside version control. Honor `.gitignore`; do not force-add ignored archives, duplicate standalone builds, credentials, or unrelated local files.
-- Continue the requested course work normally. GitHub publication does not authorize changes to repository visibility or deployment to a public website.
+- Continue the requested course work normally. The user has also requested public GitHub Pages hosting at `https://cflexdesign.github.io/moleculs_edu/`. Do not change repository visibility or deploy to other hosting providers.
+- GitHub Pages publishes the root of `main`. Keep the root `index.html` redirect to `outputs/knowledge-base/index.html` and `.nojekyll` in place. A successful push to `main` triggers a site update; check the Pages deployment when reporting a live-site update.
 
 ## Publish completed updates
 
