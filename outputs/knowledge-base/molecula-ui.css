@@ -807,9 +807,9 @@ body:has(>.kb-sidebar) .menu-button img{width:18px;height:18px;margin:0;border:0
 body:has(>.kb-sidebar) .top-label{padding:9px 18px;background:#f7f7f7;border-radius:64px;font-size:14px;font-weight:600;white-space:nowrap;color:#000}
 body:has(>.kb-sidebar) #global-search{background-image:url('../assets/figma-ui/search.svg');background-position:14px center;background-repeat:no-repeat;background-size:14px 14px;padding-left:38px}
 @media(max-width:800px){body:has(>.kb-sidebar) .top-label{padding:8px 12px;font-size:12px}body:has(>.kb-sidebar) .kb-brand{padding-left:12px}}
-/* These files are already cropped. Preserve the full supplied screenshot. */
-body:has(>.kb-sidebar) .module-screen .screen-capture-window img{width:100%;max-width:100%;height:auto}
-body:has(>.kb-sidebar) .lightbox .lightbox-viewport:is(.screen-text,.screen-nano,.screen-midjourney) img{width:100%;max-width:100%;height:auto;object-fit:contain}
+/* Source screenshots contain canvas margins. Show their actual composer region. */
+body:has(>.kb-sidebar) .screen-capture-window:is(.screen-text,.screen-nano,.screen-midjourney) img{width:200%;max-width:none;height:auto}
+body:has(>.kb-sidebar) .lightbox .lightbox-viewport:is(.screen-text,.screen-nano,.screen-midjourney) img{width:200%;max-width:none;height:auto;object-fit:fill}
 @media print{
  body:has(>.kb-sidebar) .top-label{background:none}
  body:has(>.kb-sidebar) .action-steps>li::before{color:#000;background:none;border:1px solid #000}
