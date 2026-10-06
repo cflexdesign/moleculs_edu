@@ -1,0 +1,898 @@
+{
+  "pages": {
+    "069.html": "golos-brenda-i-stsenarij-ozvuchki",
+    "028.html": "vizualnyj-brif-i-art-direkshn",
+    "004.html": "kak-vybrat-model-dlya-biznes-zadachi",
+    "053.html": "kling-v-molekule-vybor-i-postanovka-stseny",
+    "045.html": "povyshenie-razresheniya-i-kontrol-detalej",
+    "012.html": "segmenty-klientov-i-zadachi-pokupki",
+    "065.html": "obyasnyayushchee-video-dlya-sotrudnikov",
+    "032.html": "gpt-image-kompozitsiya-i-upravlyaemye-pravki",
+    "024.html": "pisma-i-soobshcheniya-po-etapam-voronki",
+    "073.html": "zvukovye-effekty-i-atmosfera",
+    "008.html": "kredity-limity-i-tsena-poleznogo-rezultata",
+    "049.html": "videoproizvodstvo-marshrut-ot-brifa-do-rolika",
+    "048.html": "priemka-izobrazheniya-pered-publikatsiej",
+    "009.html": "fakty-konfidentsialnost-i-kontrol-kachestva",
+    "072.html": "suno-v6-kak-proverit-novuyu-versiyu",
+    "025.html": "reglamenty-vstrechi-i-rabochie-protsessy",
+    "033.html": "midjourney-stil-i-granitsy-tochnosti",
+    "064.html": "delovoj-vedushchij-stsenarij-obraz-i-rech",
+    "013.html": "intervyu-s-klientom-i-analiz-otvetov",
+    "044.html": "interer-i-arkhitekturnyj-razrez",
+    "052.html": "stsenarij-i-raskadrovka-korotkoj-reklamy",
+    "005.html": "gotovye-roli-i-sobstvennye-instruktsii",
+    "029.html": "referensy-chto-menyat-i-chto-sokhranyat",
+    "068.html": "priemka-video-pokadrovaya-proverka",
+    "063.html": "avatar-brenda-vybrat-format-vedushchego",
+    "034.html": "seedream-predmetnye-i-reklamnye-stseny",
+    "022.html": "seo-statya-iz-proverennykh-materialov",
+    "075.html": "svedenie-golos-muzyka-shum-i-finalnyj-eksport",
+    "059.html": "zamena-obektov-i-okruzheniya-v-video",
+    "018.html": "otvety-klientam-i-rabota-s-otzyvami",
+    "080.html": "byudzhet-proizvodstva-i-vnedrenie-v-komandu",
+    "038.html": "kartochka-tovara-dlya-marketplejsa",
+    "079.html": "restoran-nedvizhimost-i-drugie-otrasli",
+    "002.html": "kak-uchitsya-i-sobrat-rabochuyu-sistemu",
+    "055.html": "seedance-2-5-svezhie-vozmozhnosti-i-proverka-dostupa",
+    "043.html": "delovoj-portret-i-postoyanstvo-personazha",
+    "014.html": "issledovanie-rynka-s-proverkoj-istochnikov",
+    "015.html": "predlozhenie-tsennost-dokazatelstva-usloviya",
+    "042.html": "zamena-fona-i-lokalnoe-redaktirovanie",
+    "054.html": "seedance-2-i-2-0-mini-v-molekule",
+    "003.html": "vkhod-i-navigatsiya-po-kabinetu",
+    "078.html": "b2b-i-ekspertnyj-biznes-predlozhenie-i-kontent",
+    "039.html": "seriya-izobrazhenij-v-odnom-stile",
+    "081.html": "obnovleniya-modelej-i-ezhemesyachnyj-audit-sistemy",
+    "019.html": "redaktirovanie-ubrat-vodu-i-sokhranit-smysl",
+    "058.html": "omni-i-flash-kak-proverit-dostupnyj-sposob-pravki",
+    "074.html": "rasshifrovka-zapis-tekst-vyzhimka",
+    "023.html": "tekst-posadochnoj-stranitsy",
+    "035.html": "flux-fotograficheskij-obraz",
+    "062.html": "ugc-stsenarij-i-demonstratsiya-tovara",
+    "077.html": "lokalnaya-usluga-ot-intervyu-do-reklamnogo-rolika",
+    "020.html": "golos-brenda-i-redaktsionnye-pravila",
+    "036.html": "ideogram-makety-s-nadpisyami",
+    "061.html": "kinoshnye-perekhody-dlya-biznes-kontenta",
+    "016.html": "prodazhi-v-perepiske-i-rabota-s-vozrazheniyami",
+    "041.html": "nadpisi-na-izobrazheniyakh-bez-poteri-smysla",
+    "057.html": "veo-omni-v-molekule-referensy-i-nastrojki",
+    "056.html": "veo-3-1-stsena-zvuk-korotkij-syuzhet",
+    "040.html": "logotip-i-firmennye-elementy",
+    "017.html": "kommercheskoe-predlozhenie-i-prezentatsiya",
+    "060.html": "stilizatsiya-video-i-sokhranenie-dejstviya",
+    "037.html": "tovarnoe-foto-iz-prostogo-iskhodnika",
+    "021.html": "posty-karuseli-i-kontent-plan",
+    "076.html": "zapusk-tovara-skvoznoj-proekt-magazina",
+    "010.html": "anatomiya-rabochego-prompta",
+    "047.html": "reklamnaya-kampaniya-v-raznykh-formatakh",
+    "051.html": "kamera-naezd-panorama-oblet",
+    "006.html": "proekty-obshchij-kontekst-biznesa",
+    "071.html": "suno-v5-v-molekule-muzyka-dlya-zadachi",
+    "026.html": "najm-adaptatsiya-i-obuchenie-komandy",
+    "030.html": "nano-banana-2-v-molekule",
+    "067.html": "montazh-sobrat-fajly-v-gotovyj-rolik",
+    "066.html": "sinkhronizatsiya-gub-i-kachestvo-rechi",
+    "031.html": "nano-banana-pro-i-editor-tochechnye-pravki",
+    "027.html": "analiz-biznes-dannykh-bez-vydumannykh-vyvodov",
+    "070.html": "ozvuchka-podgotovka-teksta-i-upravlenie-podachej",
+    "007.html": "fajly-i-proverka-otvetov-po-dokumentam",
+    "050.html": "ozhivlenie-fotografii-odno-ponyatnoe-dvizhenie",
+    "046.html": "skhemy-infografika-i-delovye-illyustratsii",
+    "011.html": "brif-kompanii-i-karta-faktov",
+    "index.html": "index",
+    "program.html": "uchebnye-moduli",
+    "reference.html": "spravochnik",
+    "module-01.html": "modul-01-start-pervyj-poleznyj-rezultat",
+    "module-02.html": "modul-02-teksty-i-otvety-klientam",
+    "module-03.html": "modul-03-prodazhi-predlozhenie-i-prezentatsiya",
+    "module-04.html": "modul-04-dokumenty-tsifry-i-komanda",
+    "module-05.html": "modul-05-kartochki-tovara-ot-foto-k-serii",
+    "module-06.html": "modul-06-vizualy-dlya-brenda-i-biznesa",
+    "module-07.html": "modul-07-korotkoe-video-dlya-biznesa",
+    "module-08.html": "modul-08-zvuk-i-tsifrovoj-vedushchij",
+    "module-09.html": "modul-09-rezultat-dlya-biznesa-i-rabota-na-zakaz",
+    "021-karusel.html": "karusel-proverit-razmer-organajzera",
+    "021-plan.html": "tri-publikatsii-na-nedelyu",
+    "025-peredacha.html": "peredat-rabotu-pri-otsutstvii-kollegi",
+    "025-reglament.html": "mini-reglament-povrezhdennoj-posylki",
+    "026-adaptaciya.html": "uprazhnenie-novichku-po-reglamentu",
+    "026-zadanie.html": "odinakovoe-zadanie-kandidatam",
+    "027-dannye.html": "dubl-i-propusk-v-tablitse",
+    "027-srednee.html": "srednee-vremya-s-pravilnym-vesom",
+    "043-pasport.html": "pasport-vymyshlennogo-vedushchego",
+    "module-01-1.html": "pervyj-otvet-klientu-za-15-minut",
+    "module-01-2.html": "sobrat-pasport-biznesa-dlya-sleduyushchikh-zaprosov",
+    "module-01-3.html": "ispravit-otvet-i-prodolzhit-rabotu-v-novom-chate",
+    "module-02-1.html": "otvetit-pomestitsya-li-tovar-na-polku",
+    "module-02-2.html": "perepisat-anons-bez-pustykh-obeshchanij",
+    "module-02-3.html": "otvetit-na-nedovolstvo-i-sobrat-detali",
+    "module-03-1.html": "sobrat-kommercheskoe-predlozhenie-iz-uslovij",
+    "module-03-2.html": "prevratit-kp-v-tri-slajda-dlya-soglasovaniya",
+    "module-03-3.html": "otvetit-na-dorogo-cherez-vybor-obema",
+    "module-04-1.html": "sdelat-pamyatku-po-korotkomu-reglamentu",
+    "module-04-2.html": "ponyat-pochemu-zakazov-bolshe-a-konversiya-nizhe",
+    "module-04-3.html": "podgotovit-intervyu-po-rezyume-i-kriteriyam-raboty",
+    "module-05-1.html": "podgotovit-glavnyj-kadr-kartochki-tovara",
+    "module-05-2.html": "sobrat-pyat-kartochek-s-chestnoj-infografikoj",
+    "module-05-3.html": "ispravit-oshibku-tovara-i-sdat-pravku-klientu",
+    "module-06-1.html": "sdelat-banner-uslugi-s-ponyatnym-sleduyushchim-shagom",
+    "module-06-2.html": "podgotovit-oblozhku-obucheniya-v-dvukh-formatakh",
+    "module-06-3.html": "sobrat-na-odnom-liste-predlozhenie-klientu",
+    "module-07-1.html": "ozhivit-izobrazhenie-tovara-sokhraniv-ego-konstruktsiyu",
+    "module-07-2.html": "razdelit-reklamu-tovara-na-tri-prostykh-plana",
+    "module-07-3.html": "pokazat-odno-dejstvie-sotrudnika-v-reklame-uslugi",
+    "module-08-1.html": "podobrat-muzyku-kotoraya-ne-meshaet-rasskazu-o-tovare",
+    "module-08-2.html": "podgotovit-korotkuyu-repliku-dlya-zapisi-bez-vydumannykh-obeshchanij",
+    "module-08-3.html": "podgotovit-tsifrovogo-vedushchego-dlya-uchebnoj-vstavki",
+    "module-09-1.html": "opisat-uslugu-po-sozdaniyu-kartochek-tovara",
+    "module-09-2.html": "otsenit-trudozatraty-na-uchebnyj-zakaz",
+    "module-09-3.html": "peredat-rezultat-i-proverit-polzu-dlya-biznesa"
+  },
+  "anchors": {
+    "004.html#catalog-text-model-01": "gemini-3-8-flash",
+    "004.html#catalog-text-model-02": "gemini-3-7-flash",
+    "004.html#catalog-text-model-03": "gemini-3-1-pro",
+    "004.html#catalog-text-model-04": "gemma-4",
+    "004.html#catalog-text-model-05": "claude-fable-5-1",
+    "004.html#catalog-text-model-06": "claude-opus-5-5",
+    "004.html#catalog-text-model-07": "claude-sonnet-5",
+    "004.html#catalog-text-model-08": "claude-haiku-4-5",
+    "004.html#catalog-text-model-09": "chatgpt-6-astra",
+    "004.html#catalog-text-model-10": "chatgpt-6-sol",
+    "004.html#catalog-text-model-11": "chatgpt-5-6-terra",
+    "004.html#catalog-text-model-12": "grok-4-7",
+    "004.html#catalog-text-model-13": "grok-4-6",
+    "004.html#catalog-text-model-14": "grok-4-2",
+    "004.html#catalog-text-model-15": "chatgpt-6-luna",
+    "004.html#catalog-text-model-16": "kimi-k3",
+    "004.html#catalog-text-model-17": "kimi-k2-6",
+    "004.html#catalog-text-model-18": "chatgpt-5-5",
+    "004.html#catalog-text-model-19": "kimi-k2-thinking",
+    "004.html#catalog-text-model-20": "deepseek-v4-flash",
+    "004.html#catalog-text-model-21": "deepseek-v4-pro",
+    "004.html#catalog-text-model-22": "qwen-3-8-flash",
+    "004.html#catalog-text-model-23": "qwen-3-8-max",
+    "004.html#catalog-text-model-24": "llama-4-scout",
+    "004.html#catalog-text-model-25": "perplexity-sonar",
+    "004.html#catalog-text-model-26": "perplexity-sonar-pro",
+    "004.html#catalog-text-model-27": "perplexity-sonar-deep-research",
+    "004.html#catalog-text-model-28": "glm-5-2",
+    "004.html#catalog-text-model-29": "glm-4-7",
+    "004.html#catalog-text-model-30": "glm-4-7-flash",
+    "004.html#catalog-img-gpt-25-flare": "gpt-image-2-5-flare",
+    "004.html#catalog-img-gpt-25-sunburst": "gpt-image-2-5-sunburst",
+    "004.html#catalog-img-nb2-lite": "nano-banana-2-lite",
+    "004.html#catalog-img-nb2": "nano-banana-2",
+    "004.html#catalog-img-nb-pro": "nano-banana-pro",
+    "004.html#catalog-img-nb": "nano-banana",
+    "004.html#catalog-img-nb-editor": "nano-banana-editor",
+    "004.html#catalog-img-chatgpt-image2": "chatgpt-image-2",
+    "004.html#catalog-img-chatgpt5-mini": "chatgpt-5-image-mini",
+    "004.html#catalog-img-midjourney": "midjourney",
+    "004.html#catalog-img-grok-imagine": "grok-imagine-izobrazheniya",
+    "004.html#catalog-img-seedream45": "seedream-v4-5",
+    "004.html#catalog-img-seedream4": "seedream-v4",
+    "004.html#catalog-img-ideogram3": "ideogram-v3",
+    "004.html#catalog-img-flux11pro": "flux-2-pro",
+    "004.html#catalog-video-veo-31": "veo-3-1",
+    "004.html#catalog-video-kling-30": "kling-3-0",
+    "004.html#catalog-video-veo-omni": "veo-omni",
+    "004.html#catalog-video-kling-21-standard": "kling-2-1-standard",
+    "004.html#catalog-video-seedance-2": "seedance-2",
+    "004.html#catalog-video-seedance-20-mini": "seedance-2-0-mini",
+    "004.html#catalog-video-seedance-v1-lite": "seedance-v1-lite",
+    "004.html#catalog-video-happyhorse": "happyhorse",
+    "004.html#catalog-video-grok-imagine": "grok-imagine-video",
+    "004.html#catalog-video-hailuo-02-standard": "hailuo-02-standard",
+    "004.html#catalog-video-wan-26": "wan-2-6",
+    "004.html#catalog-video-seedance-25": "seedance-2-5",
+    "004.html#catalog-audio-suno-v6": "suno-v6",
+    "004.html#catalog-audio-suno-v6-mini": "suno-v6-mini",
+    "004.html#catalog-audio-suno-v6-wild": "suno-v6-wild",
+    "004.html#catalog-audio-suno-v5": "suno-v5",
+    "004.html#catalog-text-molecula": "molekula-v-menyu-molli-1-0",
+    "005.html#catalog-molecula-role-01": "progrev-v-stories",
+    "005.html#catalog-molecula-role-02": "stsenarist-storitellinga",
+    "005.html#catalog-molecula-role-03": "stsenarist-reels",
+    "005.html#catalog-molecula-role-04": "insta-karuseli",
+    "005.html#catalog-molecula-role-05": "smyslovaya-upakovka",
+    "005.html#catalog-molecula-role-06": "generator-lid-magnitov",
+    "005.html#catalog-molecula-role-07": "telegram-kopirajter",
+    "005.html#catalog-molecula-role-08": "konstruktor-voronok",
+    "005.html#catalog-molecula-role-09": "analiz-tsa",
+    "005.html#catalog-molecula-role-10": "custdev-analitik",
+    "005.html#catalog-molecula-role-11": "prompt-inzhener",
+    "005.html#catalog-molecula-role-14": "pr-menedzher",
+    "005.html#catalog-molecula-role-15": "hr-konsultant",
+    "005.html#catalog-molecula-role-16": "seo-kopirajter",
+    "005.html#catalog-molecula-role-17": "seo-spetsialist",
+    "005.html#catalog-molecula-role-18": "smm-menedzher",
+    "005.html#catalog-molecula-role-19": "biznes-analitik",
+    "005.html#catalog-molecula-role-20": "kontent-menedzher",
+    "005.html#catalog-molecula-role-21": "kontent-menedzher-marketplejsov",
+    "005.html#catalog-molecula-role-22": "kopirajter",
+    "005.html#catalog-molecula-role-23": "marketolog",
+    "005.html#catalog-molecula-role-24": "psikholog",
+    "005.html#catalog-molecula-role-25": "rerajter",
+    "005.html#catalog-molecula-role-26": "spetsialist-integratsii-ii",
+    "005.html#catalog-molecula-role-27": "stsenarist-video",
+    "005.html#catalog-molecula-role-28": "finansovyj-konsultant",
+    "005.html#catalog-molecula-role-29": "prepodavatel",
+    "005.html#catalog-molecula-role-31": "rechevoj-analitik-pcm",
+    "005.html#catalog-molecula-role-33": "product-ux-dizajner",
+    "005.html#catalog-molecula-role-34": "kouch",
+    "005.html#catalog-molecula-role-35": "perevodchik",
+    "005.html#catalog-molecula-role-36": "motivator",
+    "005.html#catalog-molecula-role-37": "prodazhi-v-perepiske-a-vorobeva",
+    "005.html#catalog-molecula-role-38": "molekula-farshatova",
+    "005.html#catalog-molecula-role-39": "threads-mejker",
+    "005.html#catalog-molecula-role-40": "prodyuser-farshatov",
+    "005.html#catalog-molecula-role-41": "prodavets-farshatov",
+    "005.html#catalog-molecula-role-12": "numerolog",
+    "005.html#catalog-molecula-role-13": "astrolog",
+    "005.html#catalog-molecula-role-30": "dizajn-cheloveka",
+    "005.html#catalog-molecula-role-32": "podschet-kalorij",
+    "004.html#catalog-audio-model-02": "suno-v6",
+    "004.html#catalog-audio-model-03": "suno-v6",
+    "004.html#catalog-audio-model-04": "suno-v6",
+    "004.html#catalog-audio-model-05": "suno-v6"
+  },
+  "catalogs": {
+    "gemini-3-8-flash": {
+      "filename": "004.html",
+      "id": "catalog-text-model-01",
+      "title": "Gemini 3.8 Flash",
+      "category": "Текст"
+    },
+    "gemini-3-7-flash": {
+      "filename": "004.html",
+      "id": "catalog-text-model-02",
+      "title": "Gemini 3.7 Flash",
+      "category": "Текст"
+    },
+    "gemini-3-1-pro": {
+      "filename": "004.html",
+      "id": "catalog-text-model-03",
+      "title": "Gemini 3.1 Pro",
+      "category": "Текст"
+    },
+    "gemma-4": {
+      "filename": "004.html",
+      "id": "catalog-text-model-04",
+      "title": "Gemma 4",
+      "category": "Текст"
+    },
+    "claude-fable-5-1": {
+      "filename": "004.html",
+      "id": "catalog-text-model-05",
+      "title": "Claude Fable 5.1",
+      "category": "Текст"
+    },
+    "claude-opus-5-5": {
+      "filename": "004.html",
+      "id": "catalog-text-model-06",
+      "title": "Claude Opus 5.5",
+      "category": "Текст"
+    },
+    "claude-sonnet-5": {
+      "filename": "004.html",
+      "id": "catalog-text-model-07",
+      "title": "Claude Sonnet 5",
+      "category": "Текст"
+    },
+    "claude-haiku-4-5": {
+      "filename": "004.html",
+      "id": "catalog-text-model-08",
+      "title": "Claude Haiku 4.5",
+      "category": "Текст"
+    },
+    "chatgpt-6-astra": {
+      "filename": "004.html",
+      "id": "catalog-text-model-09",
+      "title": "ChatGPT 6 Astra",
+      "category": "Текст"
+    },
+    "chatgpt-6-sol": {
+      "filename": "004.html",
+      "id": "catalog-text-model-10",
+      "title": "ChatGPT 6 Sol",
+      "category": "Текст"
+    },
+    "chatgpt-5-6-terra": {
+      "filename": "004.html",
+      "id": "catalog-text-model-11",
+      "title": "ChatGPT-5.6 Terra",
+      "category": "Текст"
+    },
+    "grok-4-7": {
+      "filename": "004.html",
+      "id": "catalog-text-model-12",
+      "title": "Grok 4.7",
+      "category": "Текст"
+    },
+    "grok-4-6": {
+      "filename": "004.html",
+      "id": "catalog-text-model-13",
+      "title": "Grok 4.6",
+      "category": "Текст"
+    },
+    "grok-4-2": {
+      "filename": "004.html",
+      "id": "catalog-text-model-14",
+      "title": "Grok 4.2",
+      "category": "Текст"
+    },
+    "chatgpt-6-luna": {
+      "filename": "004.html",
+      "id": "catalog-text-model-15",
+      "title": "ChatGPT 6 Luna",
+      "category": "Текст"
+    },
+    "kimi-k3": {
+      "filename": "004.html",
+      "id": "catalog-text-model-16",
+      "title": "Kimi K3",
+      "category": "Текст"
+    },
+    "kimi-k2-6": {
+      "filename": "004.html",
+      "id": "catalog-text-model-17",
+      "title": "Kimi K2.6",
+      "category": "Текст"
+    },
+    "chatgpt-5-5": {
+      "filename": "004.html",
+      "id": "catalog-text-model-18",
+      "title": "ChatGPT-5.5",
+      "category": "Текст"
+    },
+    "kimi-k2-thinking": {
+      "filename": "004.html",
+      "id": "catalog-text-model-19",
+      "title": "Kimi K2 Thinking",
+      "category": "Текст"
+    },
+    "deepseek-v4-flash": {
+      "filename": "004.html",
+      "id": "catalog-text-model-20",
+      "title": "DeepSeek V4 Flash",
+      "category": "Текст"
+    },
+    "deepseek-v4-pro": {
+      "filename": "004.html",
+      "id": "catalog-text-model-21",
+      "title": "DeepSeek V4 Pro",
+      "category": "Текст"
+    },
+    "qwen-3-8-flash": {
+      "filename": "004.html",
+      "id": "catalog-text-model-22",
+      "title": "Qwen 3.8 Flash",
+      "category": "Текст"
+    },
+    "qwen-3-8-max": {
+      "filename": "004.html",
+      "id": "catalog-text-model-23",
+      "title": "Qwen 3.8 Max",
+      "category": "Текст"
+    },
+    "llama-4-scout": {
+      "filename": "004.html",
+      "id": "catalog-text-model-24",
+      "title": "Llama 4 Scout",
+      "category": "Текст"
+    },
+    "perplexity-sonar": {
+      "filename": "004.html",
+      "id": "catalog-text-model-25",
+      "title": "Perplexity Sonar",
+      "category": "Текст"
+    },
+    "perplexity-sonar-pro": {
+      "filename": "004.html",
+      "id": "catalog-text-model-26",
+      "title": "Perplexity Sonar PRO",
+      "category": "Текст"
+    },
+    "perplexity-sonar-deep-research": {
+      "filename": "004.html",
+      "id": "catalog-text-model-27",
+      "title": "Perplexity Sonar Deep Research",
+      "category": "Текст"
+    },
+    "glm-5-2": {
+      "filename": "004.html",
+      "id": "catalog-text-model-28",
+      "title": "GLM 5.2",
+      "category": "Текст"
+    },
+    "glm-4-7": {
+      "filename": "004.html",
+      "id": "catalog-text-model-29",
+      "title": "GLM 4.7",
+      "category": "Текст"
+    },
+    "glm-4-7-flash": {
+      "filename": "004.html",
+      "id": "catalog-text-model-30",
+      "title": "GLM 4.7 Flash",
+      "category": "Текст"
+    },
+    "gpt-image-2-5-flare": {
+      "filename": "004.html",
+      "id": "catalog-img-gpt-25-flare",
+      "title": "GPT Image 2.5 Flare",
+      "category": "Картинки"
+    },
+    "gpt-image-2-5-sunburst": {
+      "filename": "004.html",
+      "id": "catalog-img-gpt-25-sunburst",
+      "title": "GPT Image 2.5 Sunburst",
+      "category": "Картинки"
+    },
+    "nano-banana-2-lite": {
+      "filename": "004.html",
+      "id": "catalog-img-nb2-lite",
+      "title": "Nano Banana 2 Lite",
+      "category": "Картинки"
+    },
+    "nano-banana-2": {
+      "filename": "004.html",
+      "id": "catalog-img-nb2",
+      "title": "Nano Banana 2",
+      "category": "Картинки"
+    },
+    "nano-banana-pro": {
+      "filename": "004.html",
+      "id": "catalog-img-nb-pro",
+      "title": "Nano Banana Pro",
+      "category": "Картинки"
+    },
+    "nano-banana": {
+      "filename": "004.html",
+      "id": "catalog-img-nb",
+      "title": "Nano Banana",
+      "category": "Картинки"
+    },
+    "nano-banana-editor": {
+      "filename": "004.html",
+      "id": "catalog-img-nb-editor",
+      "title": "Nano Banana Editor",
+      "category": "Картинки"
+    },
+    "chatgpt-image-2": {
+      "filename": "004.html",
+      "id": "catalog-img-chatgpt-image2",
+      "title": "ChatGPT Image 2",
+      "category": "Картинки"
+    },
+    "chatgpt-5-image-mini": {
+      "filename": "004.html",
+      "id": "catalog-img-chatgpt5-mini",
+      "title": "ChatGPT 5 Image Mini",
+      "category": "Картинки"
+    },
+    "midjourney": {
+      "filename": "004.html",
+      "id": "catalog-img-midjourney",
+      "title": "Midjourney",
+      "category": "Картинки"
+    },
+    "grok-imagine-izobrazheniya": {
+      "filename": "004.html",
+      "id": "catalog-img-grok-imagine",
+      "title": "Grok Imagine",
+      "category": "Картинки"
+    },
+    "seedream-v4-5": {
+      "filename": "004.html",
+      "id": "catalog-img-seedream45",
+      "title": "Seedream v4.5",
+      "category": "Картинки"
+    },
+    "seedream-v4": {
+      "filename": "004.html",
+      "id": "catalog-img-seedream4",
+      "title": "Seedream v4",
+      "category": "Картинки"
+    },
+    "ideogram-v3": {
+      "filename": "004.html",
+      "id": "catalog-img-ideogram3",
+      "title": "Ideogram v3",
+      "category": "Картинки"
+    },
+    "flux-2-pro": {
+      "filename": "004.html",
+      "id": "catalog-img-flux11pro",
+      "title": "Flux 2 Pro",
+      "category": "Картинки"
+    },
+    "veo-3-1": {
+      "filename": "004.html",
+      "id": "catalog-video-veo-31",
+      "title": "Veo 3.1",
+      "category": "Видео"
+    },
+    "kling-3-0": {
+      "filename": "004.html",
+      "id": "catalog-video-kling-30",
+      "title": "Kling 3.0",
+      "category": "Видео"
+    },
+    "veo-omni": {
+      "filename": "004.html",
+      "id": "catalog-video-veo-omni",
+      "title": "Veo Omni",
+      "category": "Видео"
+    },
+    "kling-2-1-standard": {
+      "filename": "004.html",
+      "id": "catalog-video-kling-21-standard",
+      "title": "Kling 2.1 Standard",
+      "category": "Видео"
+    },
+    "seedance-2": {
+      "filename": "004.html",
+      "id": "catalog-video-seedance-2",
+      "title": "Seedance 2",
+      "category": "Видео"
+    },
+    "seedance-2-0-mini": {
+      "filename": "004.html",
+      "id": "catalog-video-seedance-20-mini",
+      "title": "Seedance 2.0 Mini",
+      "category": "Видео"
+    },
+    "seedance-v1-lite": {
+      "filename": "004.html",
+      "id": "catalog-video-seedance-v1-lite",
+      "title": "Seedance v1 Lite",
+      "category": "Видео"
+    },
+    "happyhorse": {
+      "filename": "004.html",
+      "id": "catalog-video-happyhorse",
+      "title": "HappyHorse",
+      "category": "Видео"
+    },
+    "grok-imagine-video": {
+      "filename": "004.html",
+      "id": "catalog-video-grok-imagine",
+      "title": "Grok Imagine",
+      "category": "Видео"
+    },
+    "hailuo-02-standard": {
+      "filename": "004.html",
+      "id": "catalog-video-hailuo-02-standard",
+      "title": "Hailuo 02 Standard",
+      "category": "Видео"
+    },
+    "wan-2-6": {
+      "filename": "004.html",
+      "id": "catalog-video-wan-26",
+      "title": "Wan 2.6",
+      "category": "Видео"
+    },
+    "seedance-2-5": {
+      "filename": "004.html",
+      "id": "catalog-video-seedance-25",
+      "title": "Seedance 2.5",
+      "category": "Видео"
+    },
+    "suno-v6": {
+      "filename": "004.html",
+      "id": "catalog-audio-suno-v6",
+      "title": "Suno v6",
+      "category": "Аудио"
+    },
+    "suno-v6-mini": {
+      "filename": "004.html",
+      "id": "catalog-audio-suno-v6-mini",
+      "title": "Suno v6 Mini",
+      "category": "Аудио"
+    },
+    "suno-v6-wild": {
+      "filename": "004.html",
+      "id": "catalog-audio-suno-v6-wild",
+      "title": "Suno v6 Wild",
+      "category": "Аудио"
+    },
+    "suno-v5": {
+      "filename": "004.html",
+      "id": "catalog-audio-suno-v5",
+      "title": "Suno V5",
+      "category": "Аудио"
+    },
+    "molekula-v-menyu-molli-1-0": {
+      "filename": "004.html",
+      "id": "catalog-text-molecula",
+      "title": "МОЛЕКУЛА (в меню «Молли 1.0»)",
+      "category": "Текст"
+    },
+    "progrev-v-stories": {
+      "filename": "005.html",
+      "id": "catalog-molecula-role-01",
+      "title": "Прогрев в Stories",
+      "category": "Соцсети"
+    },
+    "stsenarist-storitellinga": {
+      "filename": "005.html",
+      "id": "catalog-molecula-role-02",
+      "title": "Сценарист сторителлинга",
+      "category": "Соцсети"
+    },
+    "stsenarist-reels": {
+      "filename": "005.html",
+      "id": "catalog-molecula-role-03",
+      "title": "Сценарист Reels",
+      "category": "Соцсети"
+    },
+    "insta-karuseli": {
+      "filename": "005.html",
+      "id": "catalog-molecula-role-04",
+      "title": "Инста Карусели",
+      "category": "Соцсети"
+    },
+    "smyslovaya-upakovka": {
+      "filename": "005.html",
+      "id": "catalog-molecula-role-05",
+      "title": "Смысловая упаковка",
+      "category": "Продажи"
+    },
+    "generator-lid-magnitov": {
+      "filename": "005.html",
+      "id": "catalog-molecula-role-06",
+      "title": "Генератор Лид-магнитов",
+      "category": "Продажи"
+    },
+    "telegram-kopirajter": {
+      "filename": "005.html",
+      "id": "catalog-molecula-role-07",
+      "title": "Телеграм Копирайтер",
+      "category": "Соцсети"
+    },
+    "konstruktor-voronok": {
+      "filename": "005.html",
+      "id": "catalog-molecula-role-08",
+      "title": "Конструктор воронок",
+      "category": "Продажи"
+    },
+    "analiz-tsa": {
+      "filename": "005.html",
+      "id": "catalog-molecula-role-09",
+      "title": "Анализ ЦА",
+      "category": "Аналитика"
+    },
+    "custdev-analitik": {
+      "filename": "005.html",
+      "id": "catalog-molecula-role-10",
+      "title": "CustDev Аналитик",
+      "category": "Аналитика"
+    },
+    "prompt-inzhener": {
+      "filename": "005.html",
+      "id": "catalog-molecula-role-11",
+      "title": "Промпт Инженер",
+      "category": "Работа"
+    },
+    "pr-menedzher": {
+      "filename": "005.html",
+      "id": "catalog-molecula-role-14",
+      "title": "PR-менеджер",
+      "category": "Работа"
+    },
+    "hr-konsultant": {
+      "filename": "005.html",
+      "id": "catalog-molecula-role-15",
+      "title": "HR-консультант",
+      "category": "Работа"
+    },
+    "seo-kopirajter": {
+      "filename": "005.html",
+      "id": "catalog-molecula-role-16",
+      "title": "SEO-копирайтер",
+      "category": "Тексты"
+    },
+    "seo-spetsialist": {
+      "filename": "005.html",
+      "id": "catalog-molecula-role-17",
+      "title": "SEO-специалист",
+      "category": "Аналитика"
+    },
+    "smm-menedzher": {
+      "filename": "005.html",
+      "id": "catalog-molecula-role-18",
+      "title": "SMM-менеджер",
+      "category": "Соцсети"
+    },
+    "biznes-analitik": {
+      "filename": "005.html",
+      "id": "catalog-molecula-role-19",
+      "title": "Бизнес-аналитик",
+      "category": "Аналитика"
+    },
+    "kontent-menedzher": {
+      "filename": "005.html",
+      "id": "catalog-molecula-role-20",
+      "title": "Контент-менеджер",
+      "category": "Тексты"
+    },
+    "kontent-menedzher-marketplejsov": {
+      "filename": "005.html",
+      "id": "catalog-molecula-role-21",
+      "title": "Контент-менеджер маркетплейсов",
+      "category": "Тексты"
+    },
+    "kopirajter": {
+      "filename": "005.html",
+      "id": "catalog-molecula-role-22",
+      "title": "Копирайтер",
+      "category": "Тексты"
+    },
+    "marketolog": {
+      "filename": "005.html",
+      "id": "catalog-molecula-role-23",
+      "title": "Маркетолог",
+      "category": "Продажи"
+    },
+    "psikholog": {
+      "filename": "005.html",
+      "id": "catalog-molecula-role-24",
+      "title": "Психолог",
+      "category": "Про себя"
+    },
+    "rerajter": {
+      "filename": "005.html",
+      "id": "catalog-molecula-role-25",
+      "title": "Рерайтер",
+      "category": "Тексты"
+    },
+    "spetsialist-integratsii-ii": {
+      "filename": "005.html",
+      "id": "catalog-molecula-role-26",
+      "title": "Специалист интеграции ИИ",
+      "category": "Работа"
+    },
+    "stsenarist-video": {
+      "filename": "005.html",
+      "id": "catalog-molecula-role-27",
+      "title": "Сценарист видео",
+      "category": "Соцсети"
+    },
+    "finansovyj-konsultant": {
+      "filename": "005.html",
+      "id": "catalog-molecula-role-28",
+      "title": "Финансовый консультант",
+      "category": "Работа"
+    },
+    "prepodavatel": {
+      "filename": "005.html",
+      "id": "catalog-molecula-role-29",
+      "title": "Преподаватель",
+      "category": "Работа"
+    },
+    "rechevoj-analitik-pcm": {
+      "filename": "005.html",
+      "id": "catalog-molecula-role-31",
+      "title": "Речевой аналитик PCM",
+      "category": "Аналитика"
+    },
+    "product-ux-dizajner": {
+      "filename": "005.html",
+      "id": "catalog-molecula-role-33",
+      "title": "Product / UX дизайнер",
+      "category": "Аналитика"
+    },
+    "kouch": {
+      "filename": "005.html",
+      "id": "catalog-molecula-role-34",
+      "title": "Коуч",
+      "category": "Работа"
+    },
+    "perevodchik": {
+      "filename": "005.html",
+      "id": "catalog-molecula-role-35",
+      "title": "Переводчик",
+      "category": "Работа"
+    },
+    "motivator": {
+      "filename": "005.html",
+      "id": "catalog-molecula-role-36",
+      "title": "Мотиватор",
+      "category": "Про себя"
+    },
+    "prodazhi-v-perepiske-a-vorobeva": {
+      "filename": "005.html",
+      "id": "catalog-molecula-role-37",
+      "title": "Продажи в переписке А.Воробьева",
+      "category": "Продажи"
+    },
+    "molekula-farshatova": {
+      "filename": "005.html",
+      "id": "catalog-molecula-role-38",
+      "title": "Молекула Фаршатова",
+      "category": "Соцсети"
+    },
+    "threads-mejker": {
+      "filename": "005.html",
+      "id": "catalog-molecula-role-39",
+      "title": "Threads Мейкер",
+      "category": "Соцсети"
+    },
+    "prodyuser-farshatov": {
+      "filename": "005.html",
+      "id": "catalog-molecula-role-40",
+      "title": "Продюсер Фаршатов",
+      "category": "Продажи"
+    },
+    "prodavets-farshatov": {
+      "filename": "005.html",
+      "id": "catalog-molecula-role-41",
+      "title": "Продавец Фаршатов",
+      "category": "Продажи"
+    },
+    "numerolog": {
+      "filename": "005.html",
+      "id": "catalog-molecula-role-12",
+      "title": "Нумеролог",
+      "category": "Про себя"
+    },
+    "astrolog": {
+      "filename": "005.html",
+      "id": "catalog-molecula-role-13",
+      "title": "Астролог",
+      "category": "Про себя"
+    },
+    "dizajn-cheloveka": {
+      "filename": "005.html",
+      "id": "catalog-molecula-role-30",
+      "title": "Дизайн Человека",
+      "category": "Про себя"
+    },
+    "podschet-kalorij": {
+      "filename": "005.html",
+      "id": "catalog-molecula-role-32",
+      "title": "Подсчет калорий",
+      "category": "Про себя"
+    }
+  },
+  "groups": [
+    "audio",
+    "avatary",
+    "brend-portrety-i-skhemy",
+    "brif-i-iskhodniki",
+    "dokumenty-i-komanda",
+    "golos-i-rasshifrovka",
+    "igrovye-i-tvorcheskie-rubriki",
+    "instruktsii-k-modelyam-izobrazhenij",
+    "instruktsii-k-modelyam-video",
+    "issledovanie-i-razvitie-biznesa",
+    "izobrazheniya",
+    "kartochki-i-tovarnye-foto",
+    "komanda-i-obuchenie",
+    "modeli-molekuly-audio",
+    "modeli-molekuly-izobrazheniya",
+    "modeli-molekuly-tekst",
+    "modeli-molekuly-video",
+    "montazh-i-proverka",
+    "muzyka-i-zvukovye-effekty",
+    "nachalo-raboty",
+    "navigator-bazy-znanij",
+    "posty-i-kontent-plan",
+    "pravki-i-proverka-kachestva",
+    "predlozhenie-i-prodazhi",
+    "prodazhi-i-marketing",
+    "proekty-i-materialy",
+    "prompty-i-kontekst",
+    "prompty-protsessy-i-raschety",
+    "redaktura-poisk-i-perevod",
+    "roli-dlya-biznesa",
+    "stsenarij-dvizhenie-i-semka",
+    "tekst-i-yazykovye-modeli",
+    "teksty-i-publikatsii",
+    "tovary-i-videoproizvodstvo",
+    "video"
+  ]
+}

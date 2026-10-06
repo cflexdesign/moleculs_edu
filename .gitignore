@@ -6,6 +6,7 @@
 !/index.html
 !/.nojekyll
 !/outputs/
+!/scripts/
 
 # Temporary files and local credentials.
 .DS_Store
