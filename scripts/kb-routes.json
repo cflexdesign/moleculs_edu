@@ -127,7 +127,26 @@
     "module-08-3.html": "podgotovit-tsifrovogo-vedushchego-dlya-uchebnoj-vstavki",
     "module-09-1.html": "opisat-uslugu-po-sozdaniyu-kartochek-tovara",
     "module-09-2.html": "otsenit-trudozatraty-na-uchebnyj-zakaz",
-    "module-09-3.html": "peredat-rezultat-i-proverit-polzu-dlya-biznesa"
+    "module-09-3.html": "peredat-rezultat-i-proverit-polzu-dlya-biznesa",
+    "005-start.html": "roli-vybrat-pomoshchnika-i-dat-emu-svedeniya",
+    "audio-lyrics.html": "tekst-pesni-korotkie-stroki-i-otdelnoe-opisanie-muzyki",
+    "avatar-guide.html": "avatar-portret-nemoj-klip-ili-govoryashchij-vedushchij",
+    "choose-model.html": "kak-vybrat-model-i-ne-zaputatsya-v-nazvaniyakh",
+    "help-common.html": "esli-ne-poluchilos-najti-prichinu-i-sdelat-sleduyushchij-shag",
+    "image-first.html": "pervoe-izobrazhenie-opisat-stsenu-i-poluchit-kadr",
+    "image-marketplace.html": "kartochki-tovara-foto-smysl-i-ponyatnye-podpisi",
+    "image-series.html": "seriya-izobrazhenij-odin-geroj-i-obshchee-oformlenie",
+    "photo-styles.html": "gotovye-stili-vzyat-primer-i-peredelat-pod-sebya",
+    "text-business.html": "biznes-otvety-predlozheniya-i-rabochie-dokumenty",
+    "text-life.html": "povsednevnye-zadachi-soobshcheniya-plany-i-idei",
+    "text-presentation.html": "prezentatsiya-snachala-mysl-zatem-slajdy",
+    "text-resume.html": "rezyume-opisat-opyt-i-podgotovitsya-k-intervyu",
+    "text-study.html": "ucheba-razobratsya-v-teme-i-proverit-sebya",
+    "text-translation.html": "perevod-sokhranit-smysl-chisla-i-ton",
+    "trends-guide.html": "trendy-razobrat-primer-i-adaptirovat-ideyu",
+    "video-first.html": "pervoe-video-odin-kadr-i-odno-dvizhenie",
+    "video-story.html": "korotkij-rolik-tri-prostykh-plana-vmesto-odnogo-slozhnogo",
+    "video-templates.html": "videoshablony-vybrat-effekt-i-sokhranit-svoyu-stsenu"
   },
   "anchors": {
     "004.html#catalog-text-model-01": "gemini-3-8-flash",
@@ -608,7 +627,7 @@
     "molekula-v-menyu-molli-1-0": {
       "filename": "004.html",
       "id": "catalog-text-molecula",
-      "title": "МОЛЕКУЛА (в меню «Молли 1.0»)",
+      "title": "Молли 1.0",
       "category": "Текст"
     },
     "progrev-v-stories": {

@@ -1,0 +1,134 @@
+{
+  "003.html": {
+    "parent": "nachalo-raboty",
+    "mode": "text"
+  },
+  "choose-model.html": {
+    "parent": "nachalo-raboty",
+    "mode": "text"
+  },
+  "010.html": {
+    "parent": "prompty-i-kontekst",
+    "mode": "text"
+  },
+  "019.html": {
+    "parent": "redaktura-poisk-i-perevod",
+    "mode": "text"
+  },
+  "007.html": {
+    "parent": "proekty-i-materialy",
+    "mode": "text"
+  },
+  "006.html": {
+    "parent": "proekty-i-materialy",
+    "mode": "text"
+  },
+  "008.html": {
+    "parent": "nachalo-raboty",
+    "mode": "text"
+  },
+  "text-study.html": {
+    "parent": "tekst-i-yazykovye-modeli",
+    "mode": "text"
+  },
+  "text-life.html": {
+    "parent": "tekst-i-yazykovye-modeli",
+    "mode": "text"
+  },
+  "text-resume.html": {
+    "parent": "dokumenty-i-komanda",
+    "mode": "text"
+  },
+  "text-translation.html": {
+    "parent": "redaktura-poisk-i-perevod",
+    "mode": "text"
+  },
+  "text-presentation.html": {
+    "parent": "teksty-i-publikatsii",
+    "mode": "text"
+  },
+  "image-first.html": {
+    "parent": "izobrazheniya",
+    "mode": "image"
+  },
+  "photo-styles.html": {
+    "parent": "izobrazheniya",
+    "mode": "image"
+  },
+  "042.html": {
+    "parent": "pravki-i-proverka-kachestva",
+    "mode": "image"
+  },
+  "image-marketplace.html": {
+    "parent": "kartochki-i-tovarnye-foto",
+    "mode": "text"
+  },
+  "041.html": {
+    "parent": "pravki-i-proverka-kachestva",
+    "mode": "image"
+  },
+  "043.html": {
+    "parent": "brend-portrety-i-skhemy",
+    "mode": "image"
+  },
+  "image-series.html": {
+    "parent": "izobrazheniya",
+    "mode": "image"
+  },
+  "046.html": {
+    "parent": "brend-portrety-i-skhemy",
+    "mode": "text"
+  },
+  "video-first.html": {
+    "parent": "video",
+    "mode": "video"
+  },
+  "051.html": {
+    "parent": "stsenarij-dvizhenie-i-semka",
+    "mode": "video"
+  },
+  "video-templates.html": {
+    "parent": "video",
+    "mode": "video"
+  },
+  "video-story.html": {
+    "parent": "stsenarij-dvizhenie-i-semka",
+    "mode": "text"
+  },
+  "avatar-guide.html": {
+    "parent": "avatary",
+    "mode": "text"
+  },
+  "072.html": {
+    "parent": "audio",
+    "mode": "audio"
+  },
+  "audio-lyrics.html": {
+    "parent": "muzyka-i-zvukovye-effekty",
+    "mode": "text"
+  },
+  "074.html": {
+    "parent": "golos-i-rasshifrovka",
+    "mode": "text"
+  },
+  "005-start.html": {
+    "parent": "roli-dlya-biznesa",
+    "mode": "text"
+  },
+  "help-common.html": {
+    "parent": "nachalo-raboty",
+    "mode": "text"
+  },
+  "021-karusel.html": {
+    "parent": "teksty-i-publikatsii",
+    "mode": "text"
+  },
+  "trends-guide.html": {
+    "parent": "nachalo-raboty",
+    "mode": "text"
+  },
+  "text-business.html": {
+    "parent": "tekst-i-yazykovye-modeli",
+    "mode": "text"
+  }
+}

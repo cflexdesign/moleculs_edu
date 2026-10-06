@@ -196,7 +196,9 @@ class Converter:
                 if value:
                     flush();title='Запрос';previous=el.getprevious()
                     if previous is not None and previous.tag in ['h2','h3','h4']:title=text(previous)
-                    result.append({'__component':'kb.prompt','title':title,'prompt':value,'mode':mode})
+                    prompt_mode=el.get('data-mode',mode)
+                    assert prompt_mode in ['text','image','video','audio'],(filename,prompt_mode)
+                    result.append({'__component':'kb.prompt','title':title,'prompt':value,'mode':prompt_mode})
                     self.prompts.append((filename,value))
                 return
             if el.tag=='figure' or el.tag in ['img','audio','video']:
@@ -236,6 +238,8 @@ class Converter:
 
 def build_plan(rows, media):
     routes=initialize_routes(rows);conv=Converter(routes,media)
+    user_guides=load(ROOT/'scripts/user-guide-routes.json',{})
+    legacy_slugs={p['slug'] for p in load(WORK/'prod-full.json',rows)}
     byslug={p['slug']:p for p in rows};bydoc={p['documentId']:p['slug'] for p in rows}
     plans={}
     def add(slug,title,blocks,summary='',parent=None,order=0,tags=None,visible=True):
@@ -268,11 +272,23 @@ def build_plan(rows, media):
         if f.name in ['module-07-1.html','051.html','059.html','060.html']:mode='video'
         blocks=conv.blocks(body,f.name,mode)
         if f.name=='index.html':
-            blocks=[{'__component':'kb.cta','title':'Ваш первый ответ клиенту','text':'Около 15 минут. Нужны аккаунт и доступный баланс; все факты уже есть в запросе.','buttonLabel':'Начать первое задание','url':url(routes['pages']['module-01-1.html'])},
-                    {'__component':'kb.cards','title':'Выберите следующий шаг','columns':'2','items':[
-                        {'title':'Другая задача бизнеса','text':'Девять модулей, по три коротких задания в каждом.','url':url(routes['pages']['program.html'])},
-                        {'title':'Справочник','text':'Модели, роли и инструкции для выбранной задачи.','url':url(routes['pages']['reference.html'])}]}]
+            blocks=[{'__component':'kb.cta','title':'Первый чат','text':'Напишите короткое сообщение, получите ответ и попробуйте одну правку. Пример уже заполнен, свои файлы не нужны.','buttonLabel':'Попробовать первый чат','url':url(routes['pages']['003.html'])},
+                    {'__component':'kb.cards','title':'Что хотите сделать?','columns':'2','items':[
+                        {'title':label,'text':description,'url':url(routes['pages'][file])} for file,label,description in [
+                            ('text-life.html','Написать сообщение','Письмо, приглашение или небольшой план.'),
+                            ('text-study.html','Разобраться в теме','Объяснение и вопросы для проверки себя.'),
+                            ('text-resume.html','Подготовить резюме','Реальный опыт и тренировка интервью.'),
+                            ('image-first.html','Создать изображение','Сцена, свет и композиция.'),
+                            ('image-marketplace.html','Сделать карточки товара','Реальное фото, свойства и подписи.'),
+                            ('video-first.html','Оживить фотографию','Один кадр и одно движение.'),
+                            ('072.html','Создать музыку','Описание, стиль и вокал.'),
+                            ('text-presentation.html','Подготовить презентацию','Содержание слайдов и речь.')]]}]
         add(slug,title,blocks,summary,parent,int(match[2]) if match else 0,['Обучение'] if match or f.name.startswith('module-') else [],visible=f.name!='index.html')
+        # Existing relations stay stable. Only new guides receive an explicit section.
+        if f.name in user_guides and slug not in legacy_slugs:
+            plans[slug]['parent']=user_guides[f.name]['parent']
+        if f.name=='003.html':plans[slug]['order']=-10
+        if f.name in user_guides:plans[slug]['tags']=['Инструкция']
     for slug,meta in routes['catalogs'].items():
         a=article(KB/meta['filename']);el=a.xpath('.//details[@id="'+meta['id']+'"]')[0]
         body=copy.deepcopy(el.xpath('./div[contains(@class,"catalog-body")]')[0])
@@ -297,10 +313,25 @@ def build_plan(rows, media):
     for slug in group_slugs:
         p=byslug[slug]
         add(slug,p['title'],[],p.get('summary') or '',tags=[])
+    # Tool-oriented navigation mirrors the user's mental model, not the old business-first syllabus.
+    roots={
+        'nachalo-raboty':('С чего начать',0,'Первый чат, выбор модели, файлы и понятные запросы.'),
+        'tekst-i-yazykovye-modeli':('Текст и языковые модели',1,'Учёба, переписка, работа, документы и модели для текста.'),
+        'izobrazheniya':('Изображения',2,'Создание сцен, свои фотографии, стили и карточки товаров.'),
+        'video':('Видео',3,'Исходный кадр, движение, шаблоны и короткая история.'),
+        'avatary':('Аватары',4,'Портрет, движение и проверка говорящего ведущего.'),
+        'audio':('Аудио',5,'Музыка, свои слова и голосовой ввод.'),
+        'roli-dlya-biznesa':('Роли',6,'Помощники для учёбы, работы, публикаций и творческих задач.'),
+        'proekty-i-materialy':('Проекты и файлы',7,'Материалы одной темы и разговоры по документам.'),
+    }
+    for slug,(title,order,summary) in roots.items():
+        if slug in plans:
+            plans[slug].update(title=title,navTitle=title,order=order,summary=summary,
+                               seoTitle=title+' · Молекула',seoDescription=summary)
     # Place newly split instructions beside their original article.
     for f,slug in routes['pages'].items():
         if slug not in plans or f.startswith('module-') or f in ['index.html','program.html','reference.html']:continue
-        if slug not in byslug and '-' in f:
+        if slug not in byslug and '-' in f and f not in user_guides:
             original=routes['pages'].get(f.split('-')[0]+'.html')
             if original and original in plans:plans[slug]['parent']=plans[original]['parent']
         if plans[slug]['parent'] is None:plans[slug]['parent']=routes['pages']['reference.html']
@@ -326,7 +357,8 @@ def build_plan(rows, media):
     # The home page is hidden from the tree; visible navigation roots must not be its children.
     plans[routes['pages']['program.html']]['parent']=None
     plans[routes['pages']['reference.html']]['parent']=None
-    plans[routes['pages']['program.html']]['order']=0
+    plans[routes['pages']['program.html']]['order']=8
+    plans[routes['pages']['program.html']]['navTitle']='Практика для бизнеса'
     plans[routes['pages']['reference.html']]['order']=100
     assert not conv.unmapped, conv.unmapped
     for slug,p in plans.items():
