@@ -131,3 +131,23 @@ html{scroll-behavior:auto}
 @media print{.sales-next,.sales-complete,.sales-related,.sales-library-search,.sales-progress,.sales-side-bottom,.topbar{display:none!important}.sales-article{border:0;padding:0;margin:0}.sales-article h2,.sales-article h3{break-after:avoid}.sales-example,.sales-control{break-inside:avoid}.main{max-width:none;padding:0}.sales-hero{display:block;border:0;background:white;padding:0}.sales-preview{display:none}.sales-card{break-inside:avoid}.sales-cards{display:block}.sales-card{margin:15px 0}}
 
 [data-library-card][hidden],[data-source][hidden]{display:none!important}.team-progress{padding:12px 0;font-size:12px}.team-template{white-space:pre-wrap;overflow-wrap:anywhere;background:#f5f1fc;border:1px solid #e2d9ee;border-radius:12px;padding:20px;font-size:14px;line-height:1.8}.team-source-row{padding:15px 0;border-bottom:1px solid var(--line)}.team-source-row p{font-size:13px;margin:8px 0}.team-label{font-size:11px;color:var(--purple);font-weight:650}.team-roles td{min-width:160px}.team-tools{display:flex;gap:10px;flex-wrap:wrap;margin:20px 0}.team-tools .button{font-size:13px}.sales-article code{overflow-wrap:anywhere}.sales-title{overflow-wrap:anywhere}@media(max-width:800px){.team-template{padding:16px;font-size:13px}.sales-title{font-size:30px}}
+
+/* Concise department training uses the shared Molecula typefaces. */
+@font-face{font-family:Manrope;src:url('../assets/fonts/manrope-variable.ttf') format('truetype');font-style:normal;font-weight:200 800;font-display:swap}
+@font-face{font-family:Geist;src:url('../assets/fonts/geist-variable.ttf') format('truetype');font-style:normal;font-weight:100 900;font-display:swap}
+body{font-family:Manrope,-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif}
+h1,h2,h3,h4{font-family:Geist,Manrope,sans-serif;font-weight:650;letter-spacing:-.025em}
+.sales-main{max-width:1080px}.sales-title{font-size:clamp(30px,3.1vw,43px)}.lead{font-size:17px;line-height:1.65}
+.sales-article{margin:20px 0;padding:28px clamp(20px,3vw,36px)}.sales-article h2{font-size:22px;margin-top:28px}.sales-article p,.sales-article li{line-height:1.7}
+.sales-cards .sales-card h2{font-size:21px;margin-bottom:12px}.team-sales-entry{margin-top:16px}
+.team-query{margin:28px 0}.team-query h2{font-size:21px;margin:0}.team-query .prompt-top{align-items:center;flex-wrap:wrap;gap:12px}
+.team-query-hint{font-size:13px!important;color:var(--muted);margin:12px 0}.team-template{font:14px/1.75 Manrope,sans-serif;margin:12px 0;white-space:pre-wrap;overflow-wrap:anywhere}
+.team-action-steps{padding-left:23px}.team-action-steps li{padding:4px 0}.team-track-list li{margin:12px 0}
+.sales-control{margin:24px 0 0}.sales-control h2{margin-top:0}.sales-control .checklist{margin-bottom:0}.sales-example{margin:24px 0}.sales-example h2{font-size:21px;margin-top:0}
+.team-exercise-boundary{font-size:14px;color:var(--muted);padding:18px;border:1px solid var(--line);border-radius:12px;background:white}
+.kb-open-platform{margin-top:7px}.team-search-empty{padding:12px;margin:0}.team-copy-fallback{position:fixed;left:-10000px;top:0;opacity:0}
+.sales-article,.sales-article *,.sales-card,.sales-card *{min-width:0}.sales-card,.sales-article p,.sales-article li{overflow-wrap:anywhere}
+.sales-meta{font-size:12px;line-height:1.6}.sales-breadcrumb{margin-bottom:18px}.team-progress{font-size:12px}
+@media(max-width:800px){.sales-main{padding:24px 16px 48px}.sales-article{padding:22px 17px}.team-template{font-size:13px;padding:15px}.sales-control{padding:18px}.sales-title{font-size:29px}.top-search{width:100%}.sales-cards{grid-template-columns:1fr}.top-label{display:none}.sales-example{padding:18px 20px}}
+@media print{.team-query-hint,.copy-button,.sales-complete{display:none!important}.sales-article{padding:0;border:0}.team-query{break-inside:avoid}.team-template{background:white;border:1px solid #bbb}.sales-control,.sales-example{break-inside:avoid}.sales-article ol{break-inside:auto}.sales-title{font-size:26pt}}
+.team-rule-group{border:1px solid var(--line);border-radius:14px;background:#fff;margin:14px 0;overflow:hidden}.team-rule-group>summary{padding:20px 23px;cursor:pointer;font:650 21px/1.4 Geist,Manrope,sans-serif}.team-rule-group>.sales-cards{padding:0 20px 20px}.team-rule-group .sales-card{padding:18px}.team-rule-group .sales-card h3{font-size:18px;line-height:1.5}.team-rule-group[hidden]{display:none!important}@media(max-width:600px){.team-rule-group>summary{padding:17px;font-size:19px}.team-rule-group>.sales-cards{padding:0 14px 14px}}
