@@ -21,5 +21,9 @@ var oldModels={'catalog-audio-suno-v45-plus':'catalog-audio-suno-v6','catalog-au
 function reveal(){if(!location.hash)return;var id;try{id=decodeURIComponent(location.hash.slice(1));}catch(e){return;}var alias=oldModels[id];var el=document.getElementById(alias||id);if(!el)return;kind='Все';document.querySelectorAll('.catalog-item').forEach(function(c){c.hidden=false;});if(catalogSearch)catalogSearch.value='';document.querySelectorAll('button[data-catalog-kind]').forEach(function(b){var active=b.dataset.catalogKind==='Все';b.classList.toggle('active',active);b.setAttribute('aria-pressed',String(active));});for(var p=el;p;p=p.parentElement)if(p.tagName==='DETAILS')p.open=true;filterCatalog();if(alias)el.scrollIntoView({block:'start'});}
 window.addEventListener('hashchange',reveal);reveal();
 document.querySelectorAll('[data-print]').forEach(function(b){b.addEventListener('click',function(){window.print();});});
-var dialog=document.getElementById('image-preview');document.querySelectorAll('.module-screen img').forEach(function(img){img.addEventListener('click',function(){var big=dialog.querySelector('img');big.src=img.src;big.alt=img.alt;dialog.showModal();});});dialog.querySelector('button').addEventListener('click',function(){dialog.close();});
+var dialog=document.getElementById('image-preview'),previewOrigin;
+function preview(img,origin){var big=dialog.querySelector('img');big.src=img.src;big.alt=img.alt;previewOrigin=origin;dialog.showModal();}
+document.querySelectorAll('.module-screen img').forEach(function(img){img.addEventListener('click',function(){preview(img,img.closest('figure').querySelector('[data-preview]'));});});
+document.querySelectorAll('[data-preview]').forEach(function(b){b.addEventListener('click',function(){preview(b.closest('figure').querySelector('img'),b);});});
+dialog.querySelector('button').addEventListener('click',function(){dialog.close();});dialog.addEventListener('close',function(){if(previewOrigin)previewOrigin.focus();});
 })();
