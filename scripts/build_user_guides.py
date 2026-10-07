@@ -14,7 +14,7 @@ OUT=ROOT/'outputs/knowledge-base'
 WORK=ROOT/'work/human-kb'
 E=lambda x:html.escape(str(x),quote=True)
 BY_FILE={g['file']:g for g in GUIDES}
-VERSION=hashlib.sha256((Path(__file__).read_bytes()+Path(__file__).with_name('user_guide_content.py').read_bytes())).hexdigest()[:12]
+VERSION=hashlib.sha256((Path(__file__).read_bytes()+Path(__file__).with_name('user_guide_content.py').read_bytes()+(OUT/'revision.js').read_bytes())).hexdigest()[:12]
 CAT_DATA=Path(__file__).with_name('user-guide-catalog.json')
 
 def fragment(s):return LH.fragment_fromstring(s)

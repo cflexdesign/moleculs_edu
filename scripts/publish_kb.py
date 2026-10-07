@@ -175,6 +175,10 @@ class Converter:
         def visit(el):
             if not isinstance(el.tag,str):return
             if el.tag in ['h1','button','input','script','style'] or has(el,'task-done') or has(el,'portable-progress'):return
+            # Native prompt blocks already render the preceding heading as their title.
+            if el.tag in ['h2','h3','h4']:
+                following=el.getnext()
+                if following is not None and following.tag=='pre' and text(following):return
             if el.get('data-learning-progress') is not None or el.get('data-learning-resume') is not None:return
             if has(el,'single-check'):
                 flush();form=el.xpath('.//form')[0];legend=text(form.xpath('.//legend')[0]);options=[text(v) for v in form.xpath('.//label/span')]
